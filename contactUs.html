@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- using-fontAwesome -->
+   <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    
+    
+	<title>ContactForm</title>
+</head>
+<body>
+    <section>
+
+        <!-- navigation -->
+        <nav>
+        <!-- logo -->
+        <a href="#" class="logo">Contact Us</a>
+        <!-- menu -->
+        <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        </ul>
+        <!-- bars -->
+        <div class="toggle"></div>
+
+        </nav>
+   
+    </div>
+    
+    <form>
+        <div class="contactform">
+            <label for="fnm"><i class="fa fa-user icon" ></i></label>
+            <input type="text" id="fnm" placeholder="First Name" name="fnm" required>
+        </div>
+        <div class="contactform">
+            <label for="lnm"><i class="fa fa-user icon" ></i></label>
+            <input type="text" id="lnm" placeholder="Last Name" name="lnm" required>
+        </div>
+        <div class="contactform">
+            <label for="eml"><i class="fa fa-envelope icon" ></i></label>
+            <input type="email" id="eml" placeholder="Email" name="eml" required>
+        </div>
+        <div class="contactform">
+            <label for="mnum"><i class="fas fa-mobile-alt icon" ></i></label>
+            <input type="number" id="mnum" placeholder="Mobile Number" name="mnum" required>
+        </div>
+        <div class="contactform">
+            <label for="message"><i class="far fa-sticky-note icon" ></i></label>
+            <textarea id="message" name="message" placeholder="Message" required></textarea>
+        </div>
+        <input type="submit" value="Send">
+      </form>
+
+    <!--footer---------------------------------------------------------------------->
+    <footer class="ctact">
+        <p>LeymaMadjus</p>
+        <p>Web Developer and Designer, Full-stact developer from Kodego. With right knowlege and skill to build you your dream website.</p>
+            <!-- social -->
+                <div class="social-icons">
+
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+
+                </div>
+    </footer>
+    <!-- attached social bar -->
+    <div class="a-social-b">
+        <a href="index.html"><i class="fas fa-home"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+
+    </div>
+
+    <!-- jquery -->
+    <script type="text/javascript" src="js/Jquery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('.toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
+                })
+            })
+        </script>
+</body>
+</html>

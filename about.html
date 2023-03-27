@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- using-fontAwesome -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    
+	<title>AboutForm</title>
+</head>
+<body>
+    <section class="aboutSection">
+
+        <!-- navigation -->
+        <nav>
+        <!-- logo -->
+        <a href="index.html" class="logo">About Me</a>
+        <!-- menu -->
+        <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="contactUs.html">Contact us</a></li>
+        </ul>
+        <!-- bars -->
+        <div class="toggle"></div>
+
+        </nav>
+    </section>
+    <!-- about------------------------------------------------------------------->
+    <div class="about-container">
+        <!-- img----------------------------------------------------------------->
+        <img src="image/about-img2.png">
+        <!-- about-text --------------------------------------------------------->
+        <div class="about-text">
+            <p>Leymar Madjus</p>
+            <p>Web Developer & Designer</p>
+            <p>09058885188</p>
+            <p>llumantamadjus@gmail.com</p>
+            <p>Hi! My name is Leymar Madjus, I'm a Web Developer & Designer. I'm a Kodego
+                 graduate and very much like to make your dream website.  </p>
+            <!-- button----------------------------------------------------->
+            <a href="contactUs.html"> <button>Hire Me</button></a>
+            <button>Download CV</button>
+
+        </div>
+    </div>
+    <!-- services----------------------------------------------------------------->
+    <div class="services">
+        <!-- text-------------------------------------------------------------- -->
+        <div class="services-text">
+        <p>Services</p>
+        <p>Services required</p>
+        <p>I'm happy to provide you with anything from web designing and web Development, here are some of my project for your reference.</p>
+        </div>
+        <!--box--------------------------------------------------------------------->
+        <div class="box-container">
+        <!--1----------------------------------------------------------------------->
+        <div class="box-1">
+            <span>1</span>
+            <p class="heading">Web Design</p>
+            <p class="details">Sample Library Webpage</p>
+            <button><a href="../LeymarMadjus/lib/gateway.html"> Read More </a></button>
+        </div>
+        <!--2----------------------------------------------------------------------->
+        <div class="box-2">
+            <span>2</span>
+            <p class="heading">Web Development</p>
+            <p class="details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Esse optio blanditiis adipisci beatae corporis fugit.</p>
+            <button >Read More</button>
+        </div>
+        <!--3----------------------------------------------------------------------->
+        <div class="box-3">
+            <span>3</span>
+            <p class="heading">Admin/Client</p>
+            <p class="details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Esse optio blanditiis adipisci beatae corporis fugit.</p>
+            <button >Read More</button>
+        </div>
+        </div>
+    </div>
+    <!--contact me------------------------------------------------------------------>
+
+    <!--footer---------------------------------------------------------------------->
+    <footer>
+        <p>LeymaMadjus</p>
+        <p>Web Developer and Designer, Full-stact developer from Kodego. With right knowlege and skill to build you your dream website.</p>
+            <!-- social -->
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+
+                </div>
+    </footer>
+    <!-- attached social bar -->
+    <div class="a-social-b">
+        <a href="index.html"><i class="fas fa-home"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+
+    </div>
+
+    <!-- jquery -->
+    <script type="text/javascript" src="js/Jquery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('.toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
+                })
+            })
+        </script>
+</body>
+</html>
