@@ -2,6 +2,8 @@
 
 body {
     background-image: url(../image/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0px;
     padding: 0px;
 }
@@ -56,7 +58,7 @@ nav ul li a {
 .logo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #000000;
-    font-size: 50px;
+    font-size: 30px;
     text-transform: uppercase;
     
 }
@@ -69,7 +71,7 @@ nav ul li a {
 .text-container p:nth-child(1){
     font-family: calibri;
     font-weight: bold;
-    color: #6d6d6d;
+    color: #201f1f;
     font-size: 22px;    
 }
 .text-container p:nth-child(2){
@@ -360,7 +362,10 @@ form {
     font-weight: bold;
 }
 footer{
-    height: 300px;
+    height: 200px;
+    background-image: url(../image/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -372,7 +377,7 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
    /*  padding-top: 90px; */
-    height: 300px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -384,6 +389,7 @@ footer p{
     
 }
 footer p:nth-child(1){
+    padding-top: 60px;
     font-size: 30px;
     font-weight: bold;
     color: #000000;
